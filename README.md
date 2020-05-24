@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo.svg" alt="GOtech"/>
   
-  <h3> 🚀 Front-end do website GOtech</h3>
+  <h3>Front-end do website GOtech</h3>
 </div>
 
 <p align="center">
