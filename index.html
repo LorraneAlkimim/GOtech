@@ -5,26 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GOTECH FREE</title>
   <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
   <div id="container">
     <header>
       <div id="menu"> 
         <img id="logo" src="assets/logo.svg" alt="Logo">
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </nav>
-        <div>
-          <input type="text" placeholder="Search Here">
-          <button type="button">Contact Us</button>
+        <div id="menu-on" class="">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+          <div id="input-menu">
+            <input type="text" placeholder="Search Here">
+            <button type="button">Contact Us</button>
+          </div>
+            <div class="menu-toggle">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -35,8 +42,8 @@
           <h2>for you complex task</h2>
           <p>Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ae nec elaboraret</p>
         <div id="buttons">
-          <button class="bnt-purple" id="bnt-section1" type="button">Our Works</button>
-          <button id="bnt-more" type="button">Know More</button>
+          <button class="btn-purple" id="btn-section1" type="button">Our Works</button>
+          <button id="btn-more" type="button">Know More</button>
         </div>
         <img id="img-floor" src="assets/floor1.svg" alt="floor">
         <img id="img-group" src="assets/Group1.png" alt="group of people">
@@ -49,7 +56,7 @@
             <h1>about our work</h1>
             <p>Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec elaboraret interpretaris, sed diceret concludaturque ndo. Verear habemus sea ut. His nibh scripta in. In sea vocibus facilisis. Sed</p>
             <p>vel cu paulo doctus vidisse. Iudico dicant nostrum nec an, in eos In detraxit eleifend duo, alterum iudicabit consectetuer per ad.</p>
-            <button class="bnt-purple" id="bnt-section2" type="button">Know More</button>
+            <button class="btn-purple" id="btn-section2" type="button">Know More</button>
           </div>
 
           <div id="content-aside">
@@ -117,7 +124,7 @@
               <textarea name="message" cols="30" rows="3"> Lorem ipsum is simply dummy text of the printing and......</textarea>
             </div>
 
-            <button class="bnt-purple" id="bnt-section3" type="button">Our Works</button>
+            <button class="btn-purple" id="btn-section3" type="button">Our Works</button>
           </form>
         </div>
 
@@ -144,22 +151,22 @@
         <div class="content">
           <h3>Our Company</h3>
           <ul>
-            <li>About</li>
-            <li>Product</li>
-            <li>Portifolio</li>
-            <li>Career</li>
-            <li>Blog</li>
+            <li><a href="#">About</a></li>
+            <li> <a href="#">Product</a></li>
+            <li> <a href="#">Portifolio</a></li>
+            <li> <a href="#">Career</a></li>
+            <li> <a href="#">Blog</a></li>
           </ul>
         </div>
 
         <div class="content">
           <h3>Social Contacts</h3>
           <ul>
-            <li>Facebook</li>
-            <li>Linked In</li>
-            <li>Youtube</li>
-            <li>Vimeo</li>
-            <li>Skype</li>
+            <li> <a href="#">Facebook</a></li>
+            <li> <a href="#">LinkedIn</a></li>
+            <li> <a href="#">Youtube</a></li>
+            <li> <a href="#">Vimeo</a></li>
+            <li> <a href="#">Skype</a></li>
           </ul>
         </div>
 
@@ -168,16 +175,29 @@
           <p>Internet Systems Consortium, Inc. 950</p>
 
           <h3>Follow Us</h3>
-          <img src="assets/circle-purple.svg">
-          <img src="assets/circle-green.svg">
-          <img src="assets/circle-pink.svg">
-          <img src="assets/circle-orange.svg">
+          
 
           <div class="icons-container">
-            <img id="facebook" class="icons" src="assets/facebook.svg" alt="facebook icon">
-            <img id="skype" class="icons" src="assets/skype.svg" alt="skype icon">
-            <img id="linkedin" class="icons" src="assets/linkedin.svg" alt="linkedin icon">
-            <img id="instagram" class="icons" src="assets/instagram.svg" alt="instagram icon">
+            <div class="icons">
+              <img class="circle" src="assets/circle-purple.svg">
+              <img id="facebook"  src="assets/facebook.svg" alt="facebook icon">
+            </div>
+
+            <div class="icons">
+              <img class="circle" src="assets/circle-green.svg">
+              <img id="skype" src="assets/skype.svg" alt="skype icon">
+            </div>
+
+            <div class="icons">
+              <img class="circle" src="assets/circle-pink.svg">
+              <img id="linkedin" src="assets/linkedin.svg" alt="linkedin icon">
+            </div>
+
+            <div class="icons">
+              <img class="circle" src="assets/circle-orange.svg">
+              <img id="instagram" src="assets/instagram.svg" alt="instagram icon">
+            </div>
+
           </div>
         </div>
       </div>
@@ -194,5 +214,6 @@
 
     </footer>
 </div>
+<script src="scripts.js"></script>
 </body>
 </html>
